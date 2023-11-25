@@ -16,10 +16,10 @@ pipeline {
     }
 
     post {
-        successo {
+        success {
             echo 'Os testes foram executados com sucesso!'
         }
-        falhou {
+        failure {
             echo 'Os testes falharam'
         }
     }
